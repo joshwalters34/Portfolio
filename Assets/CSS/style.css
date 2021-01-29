@@ -1,0 +1,55 @@
+:root {
+    --primary-color: rgb(83, 173, 247);
+    --secondary-color: rgb(4, 15, 66);
+
+}
+
+body {
+    background-color: var(--primary-color) ;
+}
+header {
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 10px;
+    margin-left: 10px;
+    display: flex;
+    font-size: 48px;
+    border-radius: 10%;
+}
+
+ul {
+    padding: 0;
+    margin-right: 30px;
+    display: flex;
+    font-size: 20px
+}
+
+.main-links {
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    font-size:20px;
+    align-items: flex-end;
+    margin-left: 25px;
+    font-size: 25px;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--primary-color);
+    padding-bottom: 5px;
+}
+
+#UNCC {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(/homework/Portfolio/Assets/Images/UNCC.jpg);
+    background-size: cover;
+    background-position: center;
+}
