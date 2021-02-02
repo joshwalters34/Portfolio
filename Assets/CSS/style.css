@@ -158,6 +158,14 @@ ul {
 #box-5 {
     background-image: url("../Images/box\ 5.jpg");
 }
+
+#box-1:hover, #box-2:hover, #box-3:hover, #box-4:hover, #box-5:hover {
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+    box-shadow: inset 8px 8px 8px var(--primary-color);
+}
+
 #contact-me {
     color: var(--secondary-color);
     padding-left: 40px;
@@ -180,7 +188,7 @@ ul {
 
 .info {
     color: var(--secondary-color);
-    display: flex;
+    display: flex; 
     flex-direction: row;
     font-size:25px;
     justify-content: space-evenly;
