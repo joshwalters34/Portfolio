@@ -41,6 +41,17 @@ h3 {
     width:fit-content;
     padding: 10px;
     height:fit-content;
+    position:absolute; 
+    bottom: 10px;
+    left: 10px;
+    
+}
+
+img {
+    /*width: 100px;
+    height: 100px;*/
+    flex: 1;
+    padding: 30px 10px 20px 40px;
 }
 
 #top-p {
@@ -118,8 +129,6 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* width: 100%; */
-    flex: 1;
 }
 
 #box-1{
@@ -131,7 +140,7 @@ ul {
     margin: 5px;
     height: 250px;
     background-image: url("../Images/big\ box.jpg");
-    
+    position: relative;
 }
 
 #box-2, #box-2, #box-3, #box-4, #box-5  {
@@ -141,6 +150,7 @@ ul {
     border-color: var(--secondary-color);
     margin: 5px;
     height: 125px;
+    position: relative;
 }
 
 #box-2 {
@@ -164,6 +174,10 @@ ul {
     -ms-transform: scale(1.02);
     transform: scale(1.02);
     box-shadow: inset 8px 8px 8px var(--primary-color);
+}
+
+.small-text{
+    font-size: 15px;
 }
 
 #contact-me {
