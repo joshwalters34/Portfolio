@@ -5,7 +5,7 @@ This portfolio page is a representation of my work and links to contact me.  At 
 My motivation for this website is to have a central location to display my work for potential employers. 
 
 ### Image of my website
-View and image of my [Website](assets/images/website-screenshot.png)
+View an image of my [Website](assets/images/website-screenshot.png)
 
 ### website address
 Visit my [Website](https://joshwalters34.github.io/Portfolio/)
