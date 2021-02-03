@@ -3,6 +3,7 @@
     --secondary-color: rgb(4, 15, 66);
 }
 
+/* this section of CSS contains page level styling */
 body {
     background-color: var(--primary-color) ;
     font-family: Arial, Helvetica, sans-serif;
@@ -54,16 +55,23 @@ img {
     flex-shrink: 2;
 }
 
-#top-p {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    background-color: var(--primary-color);
-    text-align: center;
-    font-size: 35px;
-    padding: 5px;
+section {
+    display: flex;
+    justify-content: space-between; 
 }
 
+ul {
+   list-style-type: none;
+   width: 80%;
+   padding: 0;
+   display: flex;
+   font-size: 30px; 
+   margin-right: 30px;
+   color: var(--secondary-color);
+   justify-content: flex-end;
+} 
+
+/* this styling and the one below are for my links at the top */
 a:link {
     color:var(--primary-color);
     text-decoration: none;
@@ -74,6 +82,17 @@ a:visited {
     text-decoration: none;
   }
 
+  /* this section of CSS is for classes and IDs used throughout my page */
+#top-p {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: 35px;
+    padding: 5px;
+}
+
 div p {
      flex: 1 1 60%;
      font-size: 20px;
@@ -82,22 +101,6 @@ div p {
      padding-left: 40px;
      padding-top: 15px;
  }
- 
-section {
-     display: flex;
-     justify-content: space-between; 
- }
-
-ul {
-    list-style-type: none;
-    width: 80%;
-    padding: 0;
-    display: flex;
-    font-size: 30px; 
-    margin-right: 30px;
-    color: var(--secondary-color);
-    justify-content: flex-end;
-} 
 
 #main {
     display:flex;
@@ -144,7 +147,6 @@ ul {
 }
 
 #box-1{
-    /* flex-basis: 100%; */
     flex: 1 0 100%;
     border-style: solid;
     border-radius: .5px;
@@ -156,7 +158,6 @@ ul {
 }
 
 #box-2, #box-2, #box-3, #box-4, #box-5  {
-    /* flex-basis: 48%; */
     flex: 1 0 45%;
     border-style: solid;
     border-radius: .5px;
@@ -165,6 +166,10 @@ ul {
     height: 125px;
     position: relative;
 }
+
+.small-text{ /*this is styling for the smaller text in my work sample boxes */
+    font-size: 15px;
+} 
 
 #box-2 {
     background-image: url("../Images/box\ 2.jpg");
@@ -182,22 +187,17 @@ ul {
     background-image: url("../Images/box\ 5.jpg");
 }
 
+/*this section makes my work boxes grow and get a shadow on hover */
 #box-1:hover, #box-2:hover, #box-3:hover, #box-4:hover, #box-5:hover {
-    -webkit-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-    transform: scale(1.02);
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
     box-shadow: inset 8px 8px 8px var(--primary-color);
-}
-
-.small-text{
-    font-size: 15px;
 }
 
 #contact-me {
     color: var(--secondary-color);
     padding-left: 80px;
-    /* display: flex;  */
-    /* justify-content: space-evenly; */
     flex: 1;
 }
 
@@ -205,7 +205,6 @@ ul {
     list-style-type: none;
     width: 70%;
     padding: 0;
-    /* display: flex; */
     flex: 1;
     font-size: 30px; 
     margin-left: 30px;
@@ -228,14 +227,16 @@ ul {
     padding-bottom: 8px;
     }
 
-.info a:link {
+/*this block and the one below control the color of my Contact Me links at the bottom*/
+    .info a:link {
     color: var(--secondary-color);
 }
 
 .info a:visited {
     color: var(--secondary-color);
 }
- 
+
+/*these are my media queries to adjust the site for smaller screens */
 @media screen and (max-width: 992px) {
     #main {
       display: flex;
@@ -244,7 +245,6 @@ ul {
     }
   }
   
-  /* Large smartphones - navbar changes color */
   @media screen and (max-width: 768px) {
     #main {
         display: flex;
