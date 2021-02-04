@@ -18,7 +18,7 @@ header {
 h1 {
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    padding: 10px;
+    /* margin-right: 60px; */
     padding-left: 20px;
     font-size: 48px;
     width: 400px;
@@ -238,18 +238,81 @@ div p {
 
 /*these are my media queries to adjust the site for smaller screens */
 @media screen and (max-width: 992px) {
-    #main {
+    section {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
     }
-  }
-  
-  @media screen and (max-width: 768px) {
-    #main {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h2 {
+        border-bottom-width: 6px ;
+        border-bottom-color: var(--secondary-color);
+        border-bottom-style: solid; 
+        border-right: none;
+    }
+
+    ul {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin-left: 40px;
+    }
+
+    .main-links {
+        border-bottom-width: 1px;
+        padding: 1px;
+        width: fit-content;
+        margin: 5px;
+    }
+
+    .info {
+        border-bottom-width: 1px;
+        padding-bottom: 1px;
+        margin: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }   
+    section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    h2 {
+        border-bottom-width: 6px ;
+        border-bottom-color: var(--secondary-color);
+        border-bottom-style: solid; 
+        border-right: none;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .main-links {
+        border-bottom-width: 1px;
+        padding: 1px;
+        width: fit-content;
+        margin: 5px;
+    }
+
+    .info {
+        border-bottom-width: 1px;
+        padding-bottom: 1px;
+        margin: 5px;
     }
   }
   
