@@ -45,7 +45,7 @@ h3 {
     position:absolute; 
     bottom: 10px;
     left: 10px;
-    
+    font-weight: bold;
 }
 
 img {
@@ -70,6 +70,10 @@ ul {
    color: var(--secondary-color);
    justify-content: flex-end;
 } 
+
+.hiddenModal {
+    display: none;
+}
 
 /* this styling and the one below are for my links at the top */
 a:link {
@@ -153,7 +157,7 @@ div p {
     border-color: var(--secondary-color);
     margin: 5px;
     height: 250px;
-    background-image: url("../Images/big\ box.jpg");
+    background-image: url("../Images/weather.JPG");
     position: relative;
 }
 
@@ -226,6 +230,11 @@ div p {
     border-bottom-color: var(--secondary-color);
     padding-bottom: 8px;
     }
+
+.headerStyle {
+    background-color: var(--secondary-color);
+    color: white;
+}
 
 /*this block and the one below control the color of my Contact Me links at the bottom*/
     .info a:link {
@@ -314,5 +323,7 @@ div p {
         padding-bottom: 1px;
         margin: 5px;
     }
-  }
+
+}
   
+
