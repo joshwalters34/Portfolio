@@ -15,6 +15,16 @@ header {
     align-items: center;
 }
 
+.img-height {
+    height: 300px;
+    width: 100%;
+}
+
+#img-dojo {
+    height: 450px;
+    width: 65%;
+}
+
 h1 {
     color: var(--secondary-color);
     background-color: var(--primary-color);
@@ -83,6 +93,16 @@ a:link {
 
 a:visited {
     color:var(--primary-color);
+    text-decoration: none;
+  }
+
+.a-modal:link {
+    color: rgb(37, 33, 245);
+    text-decoration: none;
+}
+
+.a-modal:visited {
+    color:rgb(37, 33, 245);
     text-decoration: none;
   }
 
@@ -157,7 +177,7 @@ div p {
     border-color: var(--secondary-color);
     margin: 5px;
     height: 250px;
-    background-image: url("../Images/weather.JPG");
+    background-image: url("../Images/bbq-grill.JPG");
     position: relative;
 }
 
@@ -176,11 +196,11 @@ div p {
 } 
 
 #box-2 {
-    background-image: url("../Images/box\ 2.jpg");
+    background-image: url("../Images/weather.JPG");
 }
 
 #box-3 {
-    background-image: url("../Images/box\ 3.jpg");
+    background-image: url("../Images/calendar.jpg");
 }
 
 #box-4 {
