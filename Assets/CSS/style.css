@@ -36,7 +36,7 @@ h1 {
 
 h2 {
     color: var(--secondary-color);
-    font-size: 40px;
+    font-size: 38px;
     padding-right: 10px;
     padding-left: 10px;
     border-right-width: 6px ;
@@ -221,7 +221,7 @@ div p {
 
 #contact-me {
     color: var(--secondary-color);
-    padding-left: 80px;
+    padding-left: 40px;
     flex: 1;
 }
 
