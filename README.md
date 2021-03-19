@@ -13,3 +13,6 @@ Visit my [Website](https://joshwalters34.github.io/Portfolio/)
 ### Github Repository
 View my [repository](https://github.com/joshwalters34/Portfolio)
 
+### Technologies
+HTML5, CSS3, jquery, Javascript
+
