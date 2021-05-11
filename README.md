@@ -16,3 +16,5 @@ View my [repository](https://github.com/joshwalters34/Portfolio)
 ### Technologies
 HTML5, CSS3, jquery, Javascript
 
+![APM](https://img.shields.io/badge/licence-MIT-blue)
+
